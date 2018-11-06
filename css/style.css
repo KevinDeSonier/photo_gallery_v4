@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.search {
+  display: block;
+  margin: 10px auto;
+  font-size: 16pt;
+  width: 80%;
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+}
+
+.galleryContainer {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.imageFrame {
+  width: 100%;
+  padding: 10%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queres */
+@media (min-width: 768px) {
+  .search {
+    width: 40%;
+  }
+  .imageFrame {
+    display: inline-block;
+    width: 24%;
+    padding: 20px;
+  }
+
+}
